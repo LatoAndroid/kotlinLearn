@@ -27,4 +27,7 @@ class MainActivity : AppCompatActivity() {
             System.loadLibrary("native-lib")
         }
     }
+
+
+
 }
