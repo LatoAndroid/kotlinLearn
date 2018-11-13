@@ -14,4 +14,5 @@ fun main(args: Array<String>) {
 
  println(string == string2)//相当于java  equals  true
  println(string === string2)//相当于java ==      false
+ println(string === string2)//相当于java ==      false
 }
