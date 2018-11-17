@@ -31,6 +31,8 @@ class PlayerKt {
     }
 
     fun resume() {
+
+
         when (state) {
             PlayerKt.State.PAUSED -> doResume()
         }//什么都不做
