@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
             val arg1 = splits[0].toDouble()
             val op = splits[1]
             val arg2 = splits[2].toDouble()
-            println("$arg1 $op $arg2 = ${Operator(op).apply(arg1,arg2)}"  )
+            println("$arg1 $op $arg2 = ${Operator(op)(arg1,arg2)}"  )
 
 
         }catch (e:NumberFormatException){
@@ -63,7 +63,7 @@ class Operator(op:String){
         }
     }
 
-    fun apply(left:Double,right:Double):Double{
+    operator fun invoke(left:Double,right:Double):Double{
         return opFun(left,right)
     }
 }
