@@ -9,22 +9,22 @@ package com.example.jiangwei.kotlinlearn.面向对象
  *     version: 1.0
  * </pre>
  */
-open abstract class A(){
+open abstract class Aa(){
      open var j = 0
 }
 
 /**
  * kotlin的接口可以赋予实例，但是不能赋值
  */
-interface B{
+interface Bb{
     var j:Int
 
 }
 
-interface  C
+interface  Cc
 
 abstract class E
 
-class D(override var j:Int):A(),B,C{
+class Dd(override var j:Int):Aa(),Bb,Cc{
 
 }
