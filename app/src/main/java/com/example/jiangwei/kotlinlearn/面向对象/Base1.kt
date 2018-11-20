@@ -9,7 +9,7 @@ package com.example.jiangwei.kotlinlearn.面向对象
  *     version: 1.0
  * </pre>
  */
-open abstract class A{
+open abstract class A(){
      open var j = 0
 }
 
