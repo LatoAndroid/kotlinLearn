@@ -5,7 +5,7 @@ package com.example.jiangwei.kotlinlearn.面向对象
  *     author : jiangwei
  *     e-mail : jiangwei_android@163.com
  *     time   : 2018/11/20
- *     desc   :
+ *     desc   : 接口代理
  *     version: 1.0
  * </pre>
  */
