@@ -21,9 +21,6 @@ class Manager: Driver, Writer {
 
 /**
  * 接口代理by，直接用传入的类代理这个方法，在这里，SeniorManager的实例调用drive，就是调用传入的val driver: Driver的drive方法
- *
- *
- *
  */
 class SeniorManager(val driver: Driver, val writer: Writer): Driver by driver, Writer by writer
 
